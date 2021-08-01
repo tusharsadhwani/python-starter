@@ -11,7 +11,7 @@ Includes things like:
 
 ## Setup
 
-- Clone this repo
+- Clone this repo and delete `.git`
 - Rename `src/sample_package` folder to your package name
 - Rename the package import in `tests/sample_test.py`
 - Edit the marked fields in `setup.cfg`, and remove comments
