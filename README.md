@@ -18,7 +18,7 @@ Includes things like:
 - Edit `LICENSE`
 - Setup and activate a [virtualenv](https://docs.python.org/3/tutorial/venv.html)
 - Run `pip install -r requirements-dev.txt`
-- That's it! See if it worked by doing `mycommand` and `python -m <package name>`
+- That's it! See if it worked by running `mycommand` and `python -m <package name>`
 
 ## Testing
 
