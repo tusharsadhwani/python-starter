@@ -11,14 +11,14 @@ Includes things like:
 
 ## Setup
 
-- Clone this repo
+- Clone this repo and delete `.git`
 - Rename `src/sample_package` folder to your package name
 - Rename the package import in `tests/sample_test.py`
 - Edit the marked fields in `setup.cfg`, and remove comments
 - Edit `LICENSE`
 - Setup and activate a [virtualenv](https://docs.python.org/3/tutorial/venv.html)
 - Run `pip install -r requirements-dev.txt`
-- That's it! See if it worked by doing `mycommand` and `python -m <package name>`
+- That's it! See if it worked by running `mycommand` and `python -m <package name>`
 
 ## Testing
 
