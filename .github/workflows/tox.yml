@@ -22,5 +22,5 @@ jobs:
           architecture: x64
       - name: Install dependencies
         run: pip install -r requirements-dev.txt
-      - name: Test with pytest
+      - name: Run tests and type checking
         run: tox
