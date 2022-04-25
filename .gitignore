@@ -1,7 +1,8 @@
-venv
+venv*
 *.pyc
 *.egg-info
 build
 dist
-
+.tox
+.coverage
 .vscode
