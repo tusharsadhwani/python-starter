@@ -13,12 +13,13 @@ Includes things like:
 
 - Clone this repo and delete `.git`
 - Rename `src/sample_package` folder to your package name
+- Change the `mycommand` part in `setup.cfg` to create a cli command
 - Rename the package import in `tests/sample_test.py`
 - Edit the marked fields in `setup.cfg`, and remove comments
 - Edit `LICENSE`
 - Setup and activate a [virtualenv](https://docs.python.org/3/tutorial/venv.html)
 - Run `pip install -r requirements-dev.txt`
-- That's it! See if it worked by running `mycommand` and `python -m <package name>`
+- That's it! See if it worked by running your cli command and `python -m <your package name>`
 
 ## Testing
 
