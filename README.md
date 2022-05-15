@@ -13,8 +13,8 @@ Includes things like:
 
 Install [cookiecutter](https://pypi.org/p/cookiecutter) and run the following:
 
-`cookiecutter gh:tusharsadhwani/python-starter`
+`cookiecutter gh:tusharsadhwani/py`
 
 Or install it via `pipx`:
 
-`pipx run cookiecutter gh:tusharsadhwani/python-starter`
+`pipx run cookiecutter gh:tusharsadhwani/py`
