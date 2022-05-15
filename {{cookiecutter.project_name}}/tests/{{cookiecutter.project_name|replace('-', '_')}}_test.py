@@ -1,4 +1,4 @@
-from {{cookiecutter.project_name}} import test_function
+from {{cookiecutter.project_name|replace('-', '_')}} import test_function
 
 
 def function_test() -> None:
