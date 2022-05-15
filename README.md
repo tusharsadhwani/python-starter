@@ -7,41 +7,14 @@ Includes things like:
 - All necessary files and paths in `.gitignore`
 - `setup.cfg` configuration
 - Local development using `requirements.txt` and `requirements-dev.txt`
-- Tools like `mypy`, `black` and `pytest` set up out of the box
+- Tools like `mypy`, `black`, `pytest` and `tox` set up out of the box
 
-## Setup
+## Usage
 
-- Clone this repo and delete `.git`
-- Rename `src/sample_package` folder to your package name
-- Change the `mycommand` part in `setup.cfg` to create a cli command
-- Rename the package import in `tests/sample_test.py`
-- Edit the marked fields in `setup.cfg`, and remove comments
-- Edit `LICENSE`
-- Setup and activate a [virtualenv](https://docs.python.org/3/tutorial/venv.html)
-- Run `pip install -r requirements-dev.txt`
-- That's it! See if it worked by running your cli command and `python -m <your package name>`
+Install [cookiecutter](https://pypi.org/p/cookiecutter) and run the following:
 
-## Testing
+`cookiecutter gh:tusharsadhwani/python-starter`
 
-Run `pytest`
+Or install it via `pipx`:
 
-## Type Checking
-
-Run `mypy .`
-
-## Create and upload a package to PyPI
-
-Make sure to bump the version in `setup.cfg`.
-
-Then run the following commands:
-
-```bash
-rm -rf build dist
-python setup.py sdist bdist_wheel
-```
-
-Then upload it to PyPI using [twine](https://twine.readthedocs.io/en/latest/#installation):
-
-```bash
-twine upload dist/*
-```
+`pipx run cookiecutter gh:tusharsadhwani/python-starter`
