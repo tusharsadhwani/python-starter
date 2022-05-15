@@ -1,4 +1,5 @@
 {
+  "_copy_without_render": [".github/workflows/tox.yml"],
   "author": "Tushar Sadhwani",
   "email": "tushar.sadhwani000@gmail.com",
   "github_username": "tusharsadhwani",
