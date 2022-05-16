@@ -15,6 +15,36 @@ Install [cookiecutter](https://pypi.org/p/cookiecutter) and run the following:
 
 `cookiecutter gh:tusharsadhwani/py`
 
-Or install it via `pipx`:
+Or if you have `pipx` installed, you can use it directly like so:
 
 `pipx run cookiecutter gh:tusharsadhwani/py`
+
+Cookiecutter will ask you information like the project name, your email and
+GitHub username, and then it will produce the following tree structure:
+
+```text
+.
+├── src
+│   └── <project name>
+│       ├── __init__.py
+│       ├── __main__.py
+│       └── py.typed
+├── tests
+│   └── <project name>_test.py
+├── LICENSE
+├── mypy.ini
+├── README.md
+├── requirements-dev.txt
+├── requirements.txt
+├── setup.cfg
+├── setup.py
+└── tox.ini
+```
+
+Now create and activate a virtual environment, and run
+`pip install -r requirements-dev.txt`. You're ready to start writing code!
+
+To ensure that the project installation was correct:
+
+- Run `pytest` to run the sample test case, and ensure it passes.
+- Type the name of your project in the terminal, to run the sample CLI command.
