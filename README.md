@@ -13,11 +13,15 @@ Includes things like:
 
 Install [cookiecutter](https://pypi.org/p/cookiecutter) and run the following:
 
-`cookiecutter gh:tusharsadhwani/py`
+```text
+cookiecutter gh:tusharsadhwani/py
+```
 
 Or if you have `pipx` installed, you can use it directly like so:
 
-`pipx run cookiecutter gh:tusharsadhwani/py`
+```text
+pipx run cookiecutter gh:tusharsadhwani/py
+```
 
 Cookiecutter will ask you information like the project name, your email and
 GitHub username, and then it will produce the following tree structure:
@@ -41,8 +45,13 @@ GitHub username, and then it will produce the following tree structure:
 └── tox.ini
 ```
 
-Now create and activate a virtual environment, and run
-`pip install -r requirements-dev.txt`. You're ready to start writing code!
+Now create and activate a virtual environment, and run:
+
+```text
+pip install -r requirements-dev.txt
+```
+
+You're ready to start writing code!
 
 To ensure that the project installation was correct:
 
