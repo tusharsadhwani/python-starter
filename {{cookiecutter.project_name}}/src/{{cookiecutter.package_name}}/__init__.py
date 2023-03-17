@@ -1,4 +1,4 @@
-"""{{cookiecutter.project_name}} - {{cookiecutter.description}}."""
+"""{{cookiecutter.project_name}} - {{cookiecutter.description}}"""
 
 
 def some_function() -> str:
