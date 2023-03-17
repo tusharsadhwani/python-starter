@@ -4,6 +4,7 @@
   "email": "tushar.sadhwani000@gmail.com",
   "github_username": "tusharsadhwani",
   "project_name": "my-project",
+  "package_name": "{{cookiecutter.project_name|replace('-', '_')}}",
   "description": "A Python project.",
-  "year": "2022"
+  "year": "{% now 'utc', '%Y' %}"
 }
