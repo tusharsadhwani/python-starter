@@ -2,6 +2,16 @@
 
 {{cookiecutter.description}}
 
+## Installation
+
+```bash
+pip install {{cookiecutter.package_name}}
+```
+
+## Usage
+
+TODO
+
 ## Local Development / Testing
 
 - Create and activate a virtual environment
