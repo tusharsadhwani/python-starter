@@ -1,6 +1,20 @@
 """CLI interface for {{cookiecutter.package_name}}."""
+from __future__ import annotations
+
+import argparse
+
+from {{cookiecutter.package_name}} import greet
 
 
-def cli() -> None:
+class CLIArgs:
+    name: str
+
+
+def cli(argv: list[str] | None = None) -> int:
     """CLI interface."""
-    print("Hello, this is a sample CLI output.")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("name", default="world")
+    args = parser.parse_args(argv, namespace=CLIArgs)
+
+    greet(args.name)
+    return 0

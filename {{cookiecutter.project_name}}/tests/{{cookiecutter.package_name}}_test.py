@@ -1,7 +1,7 @@
-from {{cookiecutter.package_name}} import some_function
+from {{cookiecutter.package_name}} import greet
 
 
-def test_some_function() -> None:
-    """Tests some_function from the package."""
-    output = some_function()
-    assert output == "This is a string"
+def test_greet() -> None:
+    """Tests greet() from the package."""
+    output = greet("Tushar")
+    assert output == "Hello Tushar!"

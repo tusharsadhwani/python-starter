@@ -1,7 +1,7 @@
 """{{cookiecutter.project_name}} - {{cookiecutter.description}}"""
+from __future__ import annotations
 
 
-def some_function() -> str:
-    """Returns a string."""
-
-    return "This is a string"
+def greet(name: str) -> str:
+    """Returns a greeting."""
+    return f"Hello {name}!"
