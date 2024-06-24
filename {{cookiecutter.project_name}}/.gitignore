@@ -5,4 +5,4 @@ venv*
 build
 dist
 .tox
-.coverage
+.coverage*
